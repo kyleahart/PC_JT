@@ -1,0 +1,153 @@
+{
+  "image": "A4-Document.jpg",
+  "productVisibility": "published",
+  "orderAttachments": {"fileUploadEnabled": true, "physicalCopyEnabled": true},
+  "attributes": {
+    "copies": {"visible": true},
+    "printColor": {"visible": true},
+    "singleOrDoubleSided": {"visible": true},
+    "due": {"visible": true, "leadTimeDays": 3, "workingDays": ["Mon","Tue","Wed","Thu","Fri"]},
+    "paperStock": {
+      "options": [
+        {"size": "Letter", "color": "White", "type": "20lb Bond", "cost": 0.00},
+        {"size": "Letter", "color": "Blue", "type": "20lb Bond", "cost": 0.00},
+        {"size": "Letter", "color": "Canary", "type": "20lb Bond", "cost": 0.00},
+        {"size": "Letter", "color": "Green", "type": "20lb Bond", "cost": 0.00},
+        {"size": "Letter", "color": "Pink", "type": "20lb Bond", "cost": 0.00},
+        {"size": "Letter", "color": "White - Coverstock", "type": "90lb Bond", "cost": 0.02},
+        {"size": "Letter", "color": "Blue - Coverstock", "type": "90lb Bond", "cost": 0.02},
+        {"size": "Letter", "color": "Canary - Coverstock", "type": "90lb Bond", "cost": 0.02},
+        {"size": "Letter", "color": "Green - Coverstock", "type": "90lb Bond", "cost": 0.02},
+        {"size": "Letter", "color": "Pink - Coverstock", "type": "90lb Bond", "cost": 0.02},
+        {"size": "Letter", "color": "Astrobrite Solar Yellow", "type": "24lb Bond", "cost": 0.02},
+        {"size": "Letter", "color": "Astrobrite Galaxy Gold", "type": "24lb Bond", "cost": 0.02},
+        {"size": "Letter", "color": "Astrobrite Terra Green", "type": "24lb Bond", "cost": 0.02},
+        {"size": "Letter", "color": "Astrobrite Gamma Green", "type": "24lb Bond", "cost": 0.02},
+        {"size": "Letter", "color": "Astrobrite Rocket Red", "type": "24lb Bond", "cost": 0.02},
+        {"size": "Letter", "color": "Astrobrite Pulsar Pink", "type": "24lb Bond", "cost": 0.02},
+        {"size": "Letter", "color": "Astrobrite Orbit Orange", "type": "24lb Bond", "cost": 0.02},
+        {"size": "Letter", "color": "Astrobrite Teal", "type": "24lb Bond", "cost": 0.02},
+        {"size": "Letter", "color": "Astrobrite Lunar Blue", "type": "20lb Bond", "cost": 0.02},
+        {"size": "Legal (8.5 x 14)", "color": "White", "type": "20lb Bond", "cost": 0.01},
+        {"size": "Ledger (11 x 17)", "color": "White", "type": "20lb Bond", "cost": 0.02},
+        {"size": "Ledger 70LB (11 x 17)", "color": "White", "type": "70lb Bond", "cost": 0.04},
+        {"size": "Ledger 110LB (11 x 17)", "color": "White", "type": "110lb Bond", "cost": 0.10},
+        {"size": "Other(make note in comments)", "color": "Other", "type": "Other", "cost": 0.02}
+      ]
+    },
+    "collating": {
+      "options": [
+        {"name": "Collated (123, 123)","image": "collating.jpg"},
+        {"name": "Grouped (111, 222)","image": "collating_none.jpg"}
+      ]
+    },
+    "frontCover": {
+      "options": [
+        {"name": "None","image": "cover_none.jpg","printable": false,"cost": 0},
+        {"name": "White","description": "A heavier cardstock used as cover to your document.","image": "cover_none.jpg","printable": true,"cost": 0.02},
+        {"name": "Color","description": "20LB color paper","image": "cover_assorted.jpg","printable": true,"cost": 0.03},
+        {"name": "Solar Yellow","description": "A heavier cardstock used as cover to your document.","image": "cover_solaryellow.jpg","printable": true,"cost": 0.04},
+        {"name": "Galaxy Gold","description": "A heavier cardstock used as cover to your document.","image": "cover_galaxygold.jpg","printable": true,"cost": 0.04},
+        {"name": "Terra Green","description": "A heavier cardstock used as cover to your document.","image": "cover_terragreen.jpg","printable": true,"cost": 0.04},
+        {"name": "Gamma Green","description": "A heavier cardstock used as cover to your document.","image": "cover_gammagreen.jpg","printable": true,"cost": 0.04},
+        {"name": "Rocket Red","description": "A heavier cardstock used as cover to your document.","image": "cover_rocketred.jpg","printable": true,"cost": 0.04},
+        {"name": "Pulsar Pink","description": "A heavier cardstock used as cover to your document.","image": "cover_pulsarpink.jpg","printable": true,"cost": 0.04},
+        {"name": "Orbit Orange","description": "A heavier cardstock used as cover to your document.","image": "cover_orbitorange.jpg","printable": true,"cost": 0.04},
+        {"name": "Teal","description": "A heavier cardstock used as cover to your document.","image": "cover_teal.jpg","printable": true,"cost": 0.04},
+        {"name": "Lunar Blue","description": "A heavier cardstock used as cover to your document.","image": "cover_lunarblue.jpg","printable": true,"cost": 0.04},
+        {"name": "Planetary Purple","description": "A heavier cardstock used as cover to your document.","image": "cover_planetarypurple.jpg","printable": true,"cost": 0.04}
+      ]
+    },
+    "backCover": {
+      "options": [
+        {"name": "None","image": "cover_none.jpg","printable": false,"cost": 0},
+        {"name": "White","description": "A heavier cardstock used as cover to your document.","image": "cover_none.jpg","printable": true,"cost": 0.02},
+        {"name": "Color","description": "20LB color paper","image": "cover_assorted.jpg","printable": true,"cost": 0.03},
+        {"name": "Solar Yellow","description": "A heavier cardstock used as cover to your document.","image": "cover_solaryellow.jpg", "cost": 0.04},
+        {"name": "Galaxy Gold","description": "A heavier cardstock used as cover to your document.","image": "cover_galaxygold.jpg", "cost": 0.04},
+        {"name": "Terra Green","description": "A heavier cardstock used as cover to your document.","image": "cover_terragreen.jpg", "cost": 0.04},
+        {"name": "Gamma Green","description": "A heavier cardstock used as cover to your document.","image": "cover_gammagreen.jpg", "cost": 0.04},
+        {"name": "Rocket Red","description": "A heavier cardstock used as cover to your document.","image": "cover_rocketred.jpg", "cost": 0.04},
+        {"name": "Pulsar Pink","description": "A heavier cardstock used as cover to your document.","image": "cover_pulsarpink.jpg", "cost": 0.04},
+        {"name": "Orbit Orange","description": "A heavier cardstock used as cover to your document.","image": "cover_orbitorange.jpg", "cost": 0.04},
+        {"name": "Teal","description": "A heavier cardstock used as cover to your document.","image": "cover_teal.jpg", "cost": 0.04},
+        {"name": "Lunar Blue","description": "A heavier cardstock used as cover to your document.","image": "cover_lunarblue.jpg", "cost": 0.04},
+        {"name": "Planetary Purple","description": "A heavier cardstock used as cover to your document.","image": "cover_planetarypurple.jpg", "cost": 0.04}
+      ]
+    },
+    "binding": {
+        "options": [
+          {"name": "None","image": "whiteboard.jpg","cost": 0},
+          {"name": "Stapling","image": "stapling_topleft.jpg","cost": 0.00,
+		        "attributes": [
+              {"name": "Position","description": "Select the staple position",
+			          "options": [
+                  {"name": "Top Left","image": "stapling_topleft.jpg","description": "One staple in top left hand corner","cost": 0.01},
+                  {"name": "Two on Left","image": "stapling_twoleft.jpg","description": "Two staples on left hand side","cost": 0.02},
+                  {"name": "Two on Right","image": "stapling_tworight.jpg","description": "Two staples on right hand side","cost": 0.02}
+			          ]
+              }
+		       ]
+          },
+          {"name": "Thermal Bind** [Requires Authorization]", "image": "whiteboard.jpg","description": "100 pgs Max", "cost": 0.35},
+          {"name": "Twin Loop** [Requires Authorization]", "image": "whiteboard.jpg","description": "1/4\" (< 50 pgs), 5/8\" (< 125 pgs Max)", "cost": 0},
+          {"name": "Comb Binding** [Requires Authorization]", "image": "whiteboard.jpg","description": "1/4\" (< 50 pgs), 3/8\" (< 75 pgs), 1/2\" (< 100 pgs), 5/8\" (< 125 pgs), 1\" (< 200 pgs Max)", "cost": 0}
+		    ]
+    },
+    "folding": {
+	  "options": [
+        {"name": "None","image": "folding_none.jpg","cost": 0},
+        {"name": "Tri-Fold","image": "folding_trifold.jpg","cost": 0.0047},
+        {"name": "Z-Fold","image": "folding_zfold.jpg","cost": 0.0047},
+        {"name": "Bi-Fold","image": "folding_bifold.jpg","cost": 0.0047}
+   	    ]
+    },
+    "holePunching": {
+	  "options": [
+        {"name": "None","image": "whiteboard.jpg","cost": 0},
+        {"name": "3 Hole Punch (Left)","description": "Three holes on the left side of the page","image": "3holeleft.jpg","cost": 0.003},
+        {"name": "Hole Drilling** [Requires Authorization]", "description": "Please provide details in comments section.", "image": "whiteboard.jpg", "cost": 0.00}
+	    ]
+    },
+    "cutting": {
+      "options": [
+        {"name": "None","image": "whiteboard.jpg","cost": 0},
+        {"name": "Cut** [Requires Authorization]", "image": "whiteboard.jpg", "cost": 0.00}
+      ]
+    },
+    "custom":
+	  {"name": "Additional Options (**Requires Authorization** Pricing will be quoted by Central Services)",
+	    "fields": [
+          {"name": "Tabs** [Requires Authorization]",
+	        "options": [
+              {"name": "None", "cost": 0.00},
+              {"name": "QTY 1", "cost": 0.50},
+              {"name": "QTY 2", "cost": 0.50},
+              {"name": "QTY 3", "cost": 0.50},
+              {"name": "QTY 4", "cost": 0.50},
+              {"name": "QTY 5", "cost": 0.50},
+              {"name": "QTY 6", "cost": 1.00},
+              {"name": "QTY 7", "cost": 1.00},
+              {"name": "QTY 8", "cost": 1.00},
+              {"name": "QTY 9", "cost": 1.00},
+              {"name": "QTY 10", "cost": 1.00},
+              {"name": "QTY 11", "cost": 1.50},
+              {"name": "QTY 12", "cost": 1.50}
+	    	]
+          }
+	      ]
+          },
+    "customOperatorOnly":
+	  {"name": "Additional details (Operator to fill out)",
+	    "fields": [
+          {"name": "Operator name","required": false},
+          {"name": "Printer",
+		    "options": [
+              {"name": "Local Printer (Central Services)","cost": 0},
+              {"name": "Commercial Print (Outsourced)","cost": 0}
+		  ]
+         }
+	   ]
+     }
+    }
+}
